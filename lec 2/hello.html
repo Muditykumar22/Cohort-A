@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concept data </title>
+</head>
+<body>
+    <h1>HTML Learning - Simple Guide</h1>
+    
+    <h2>1. Basic Structure</h2>
+    <p>Every HTML page has:</p>
+    <ul>
+        <li>&lt;!DOCTYPE html&gt;</li>
+        <li>&lt;html&gt;</li>
+        <li>&lt;head&gt; - Page info</li>
+        <li>&lt;body&gt; - Content</li>
+    </ul>
+
+    <h2>2. Headings</h2>
+    <h1>Biggest (h1)</h1>
+    <h2>Big (h2)</h2>
+    <h3>Medium (h3)</h3>
+    <h4>Small (h4)</h4>
+
+    <h2>3. Lists</h2>
+    <h3>Bullet Points:</h3>
+    <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ul>
+    
+    <h3>Numbered List:</h3>
+    <ol>
+        <li>Step 1</li>
+        <li>Step 2</li>
+        <li>Step 3</li>
+    </ol>
+
+    <h2>4. Images</h2>
+    <p>Adding images:</p>
+    <img src="god.jfif" alt="Cool Image" height="200" width="300">
+    <h2> 5. Forms</h2>
+    <p> Collect Information</p>
+    <form>
+        <label> Name:</label>
+        <input type="text" placeholder=" Enter name"><br><br>
+        <label> Age:</label>
+        <input type="number" placeholder="Your Age"> <br><br>
+        <label> Color:</label>
+        <select>
+            <option>Chose Color</option>
+            <option>Red</option>
+            <option> Blue</option>
+            <option> Green</option>
+        </select><br><br>
+        <button>Submit!</button>
+    </form>
+    <h2> 6. Tables</h2>
+    <p> Organize data:</p>
+    <table border="1">
+        <tr>
+            <th> Name</th>
+            <th> Age</th>
+            <th> City</th>
+        </tr>
+        <tr>
+            <th> rahul</th>
+            <th> 99</th>
+            <th> dholakpur</th>
+        </tr>
+        <tr>
+            <th> Indumati</th>
+            <th> -7</th>
+            <th>karagarme</th>
+        </tr>
+    </table>
+    <h2> 7. Buttons</h2>
+    <button> Click Me!</button>
+    <button> Submit</button>
+    <button> Reset</button>
+    <h2>8. What you learned</h2>
+    <ol>
+        <li>HTML Structure</li>
+        <li>Heading and lists</li>
+        <li>Images and forms</li>
+        <li>tables and buttons</li>
+    </ol>
+    <h3>Practice:</h3>
+    <p>Make your own page with:</p>
+    <ul>
+        <li>Your hobby as title</li>
+        <li>A form about interest</li>
+        <li>A table with friendws and there ages</li>
+        <li>some images</li>
+    </ul>
+    <p> <strong> Congo! you know HTML little bit more</strong></p>
+    <h2>Links (Anchor tags</h2>
+    <p> links are created using the anchortags</p>
+    <a href="https://www.codingblocks.com/" target="_blank"> Coding blocks</a><br> <br>
+    <a href="https://rbuchd.in/">RBU College</a><br><br>
+     <h3>Link attributes:</h3>
+    <ul>
+        <li>href - destination URL</li>
+        <li>target="_blank" - opens in new tab</li>
+        <li>Internal links (same website)</li>
+        <li>External links (other websites)</li>
+    </ul>
+    <h2>Media Elements</h2>
+    <h3>Audio:</h3>
+    <p>Audio files can be embedded</p>
+    <audio src="audio.mpeg" controls></audio>
+    <p> Audio attributes: auto play, muted, loop, controls</p>
+    <h3> Video:</h3>
+    <p> Video fil"es can be embedded:</p>
+    <video src ="subh.mp4" height="250" width="350"></video>
+    <p> video attributes: autoplay, muted, loop, controls, height, width</p>
+    <h3> Youtube Embed</h3>
+    <p>we can embed youtube video using Iframe</p>
+    <iframe width ="560" height ="315" src="https://www.youtube.com/watch?v=DFxJBLKGuFM" title="YouTube video player" frameborder="0" allwor="accelerometer; autoplay; clipboard-write; encrypted-media;gyroscope; picture-in-picture " allowfullscreen></iframe>
+     <h3>Basic Form Elements:</h3>
+    <form action="thank.html" method="post">
+        <fieldset>
+            <legend>Customer Registration</legend>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password"><br><br>
+            
+            <label for="age">Age:</label>
+            <input type="number" id="age"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Customer Feedback</legend>
+            <label for="feedback">Your Feedback:</label><br>
+            <textarea id="feedback" rows="4" cols="50"></textarea><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit Form">
+    </form>
+    <h3>Form Input Types:</h3>
+    <ul>
+        <li>text - for text input</li>
+        <li>email - for email addresses</li>
+        <li>password - for passwords</li>
+        <li>number - for numeric values</li>
+        <li>file - for file uploads</li>
+        <li>date - for date selection</li>
+        <li>checkbox - for multiple choice</li>
+        <li>radio - for single choice</li>
+        <li>select - for dropdown menus</li>
+        <li>textarea - for long text</li>
+    </ul>
+    <h2>9. Tables</h2>
+    <p>Tables are used to display data in rows and columns.</p>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Roll No.</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Mudity chaudhary</td>
+            <td>056</td>
+            <td>26</td>
+            <td>Delhi</td>
+        </tr>
+        <tr>
+            <td>Harsh</td>
+            <td>639</td>
+            <td>22</td>
+            <td>Mumbai</td>
+        </tr>
+        <tr>
+            <td>Nolan</td>
+            <td>543</td>
+            <td>21</td>
+            <td>Pune</td>
+        </tr>
+    </table>
+    <h3>Table Elements:</h3>
+    <ul>
+        <li>&lt;table&gt; - creates a table</li>
+        <li>&lt;tr&gt; - table row</li>
+        <li>&lt;th&gt; - table header</li>
+        <li>&lt;td&gt; - table data</li>
+        <li>rowspan - merge rows</li>
+        <li>colspan - merge columns</li>
+    </ul>
+    <h2>10. Buttons</h2>
+    <p>Different types of buttons:</p>
+    <button>Regular Button</button>
+    <button type="submit">Submit Button</button>
+    <button type="reset">Reset Button</button>
+    <input type="button" value="Input Button">
+    <h2>11. Semantic HTML Elements</h2>
+    <p>Semantic elements give meaning to your content:</p>
+    
+    <header>
+        <h2>RBU Kharar</h2>
+        <p>This is a header section</p>
+    </header>
+
+    <main>
+        <section>
+            <h3>Departments</h3>
+            <div>Engineering Department</div>
+            <div>Medical Department</div>
+            <div>Arts Department</div>
+        </section>
+        
+        <section>
+            <h3>Courses</h3>
+            <div>Computer Science</div>
+            <div>Mechanical Engineering</div>
+            <div>Civil Engineering</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>This is a footer section</p>
+        <p>&copy; 2024 RBU Kharar. All rights reserved.</p>
+    </footer>
+
+    <!-- 12. Advanced Elements -->
+    <h2>12. Advanced HTML Elements</h2>
+    
+    <h3>Details and Summary:</h3>
+    <details>
+        <summary>Click to read more</summary>
+        <p>This is hidden content that appears when you click the summary.</p>
+        <p>Great for organizing long content into collapsible sections.</p>
+    </details>
+
+    <h3>Fieldset and Legend:</h3>
+    <p>Fieldset groups related form elements:</p>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label>Name: <input type="text"></label><br><br>
+        <label>Age: <input type="number"></label>
+    </fieldset>
+
+    <!-- 13. Comments -->
+    <h2>13. HTML Comments</h2>
+    <p>Comments are not visible on the webpage but help developers understand the code.</p>
+    <!-- This is a comment that won't show on the page -->
+    <!-- Comments are useful for:
+         - Explaining code
+         - Temporarily hiding code
+         - Adding notes for other developers -->
+         <h2>14. What You Learned Today</h2>
+    <ol>
+        <li>Basic HTML structure and elements</li>
+        <li>Headings, paragraphs, and text formatting</li>
+        <li>Lists (ordered and unordered)</li>
+        <li>Images with attributes</li>
+        <li>Links (internal and external)</li>
+        <li>Media elements (audio, video, iframe)</li>
+        <li>Forms with various input types</li>
+        <li>Tables for data organization</li>
+        <li>Buttons and form submission</li>
+        <li>Semantic HTML elements</li>
+        <li>Advanced elements (details, fieldset)</li>
+        <li>HTML comments</li>
+    </ol>
+    <h3>Practice Exercise:</h3>
+    <p>Try creating your own HTML page with:</p>
+    <ul>
+        <li>A title about your favorite topic</li>
+        <li>A form to collect user information</li>
+        <li>A table with your friends' details</li>
+        <li>Some images and links</li>
+        <li>Different types of lists</li>
+        <li>A video or audio element</li>
+        <li>Semantic elements for structure</li>
+    </ul>
+
+
+</body>
+</html>
